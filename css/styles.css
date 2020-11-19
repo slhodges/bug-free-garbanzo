@@ -307,6 +307,10 @@ button.open {
   color: #f47b6a;
 }
 
+button.open:focus {
+  border: 0;
+}
+
 button.open:hover {
   transform: scale(1.0625, 1.0625);
   transition: ease 15ms;
