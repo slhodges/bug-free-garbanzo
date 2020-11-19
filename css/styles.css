@@ -420,6 +420,7 @@ p {
   .banner {
     background-image: url("/img/IMG_3863mo.png");
     background-color: rgb(182, 180, 180);
+    background-attachment: scroll;
   }
 
   .photo-button {
@@ -447,11 +448,4 @@ p {
   .education {
     width: 100%;
   }
-}
-
-@media only screen and (max-width: 375px) {
-    .banner {
-        background-image: url("/img/IMG_3863iphone.png");
-    background-color: rgb(182, 180, 180);
-    }
 }
