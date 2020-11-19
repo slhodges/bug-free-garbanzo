@@ -125,7 +125,7 @@ p {
   display: inline-block;
 }
 
-.banner {
+/* .banner {
   display: block;
   margin: 0px;
   padding: 0px;
@@ -135,6 +135,11 @@ p {
   right: 0;
   width: 100%;
   position: relative;
+} */
+
+.banner {
+    display: block;
+    position: relative;
   /* The image used */
   background-image: url("/img/IMG_3863.png");
   height: 650px;
@@ -146,14 +151,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* .hero-img img {
-    width: 100%;
-    object-fit: cover;
-    max-height: 600px;
-    opacity: 50%;
-} */
-
 
 .intro {
   position: absolute;
@@ -429,7 +426,7 @@ p {
     background-image: url("/img/IMG_3863mo.png");
     /* background-position: right; */
     background-color: rgb(182, 180, 180);
-    max-height: 650px;
+    max-width: 100%;
   }
 
   .photo-button {
