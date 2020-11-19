@@ -146,10 +146,10 @@ p {
 
 .banner {
   /* The image used */
-  background-image: url("/img/crow.jpg");
-  height: 600px;
+  background-image: url("/img/IMG_3863.png");
+  height: 650px;
   background-blend-mode: multiply;
-  background-color: gray;
+  background-color:rgb(224, 224, 224);
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -260,7 +260,7 @@ p {
 
 .overlay p {
   font-size: 0.75em;
-  margin: 2px;
+  margin: 2px 40px;
   font-style: italic;
 }
 
@@ -425,6 +425,12 @@ p {
   p {
     font-size: 1em;
     margin: 20px 0px 0px 0px;
+  }
+
+  .banner {
+    background-image: url("/img/IMG_3863mo.png");
+    /* background-position: right; */
+    background-color: rgb(182, 180, 180);
   }
 
   .photo-button {
