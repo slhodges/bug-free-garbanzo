@@ -410,6 +410,10 @@ p {
         max-height: 400px; */
   }
 
+  .overlay {
+      background-color: #083e40;
+  }
+
   .resume {
     flex-wrap: wrap;
   }
