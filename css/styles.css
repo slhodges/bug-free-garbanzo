@@ -57,7 +57,7 @@ h3 {
 
 h4 {
   font-family: "DM Sans", sans-serif;
-  font-size: 2em;
+  font-size: 1.75em;
   margin: 0px;
   color: white;
   padding-bottom: 20px;
@@ -190,7 +190,7 @@ p {
   text-align: center;
 }
 
-.more-info {
+/* .more-info {
   padding: 30px;
 }
 
@@ -256,21 +256,24 @@ p {
 
 .false {
   transform: rotate(220deg);
-}
+} */
 
 /* Modal Boxes */
 .trueorfalse {
-  padding: 20px 30px;
+  border-top: 1px solid white;
+  padding: 50px 10px 20px 10px;
   text-align: center;
+  margin: 50px 50px;
 }
 
 .trueorfalse h6 {
-  margin-top: 0px;
-  padding: 0px;
+  margin-top: -10px;
+  padding-bottom: 0px;
   font-weight: 400;
   font-size: .9em;
   font-style: italic;
   opacity: .75;
+  margin-bottom: 10;
 }
 
 .tf-modal {
@@ -389,8 +392,17 @@ button.close {
   margin-bottom: 0;
 }
 
+.rule {
+  margin: 20px 50px 0px 50px;
+  border-bottom: 1px solid white;
+}
+
 .bio {
   margin-top: 0px;
+}
+
+.bio p {
+  font-size: 1.2em;
 }
 
 .bio em {
@@ -462,15 +474,38 @@ button.close {
   align-content: flex-start;
 }
 
+.education h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.4em;
+  color:#f47b6a;
+  padding-bottom: 10px;
+  text-align: right;
+  opacity: .75;
+  font-style: italic;
+}
+
 .school,
 .prof {
-  background-color: rgba(255, 255, 255, 0.534);
+  background-color: rgba(255, 255, 255, 0.123);
   border-radius: 10px;
-  padding: 20px;
+  padding: 30px;
   /* height: 200px; */
   width: 100%;
   text-align: left;
   margin: 10px 0px;
+}
+
+.school h5, .school h6, .prof h5, .prof h6 {
+  margin-top: 0;
+}
+
+.school h5, .prof h5 {
+  font-size: 1em;
+}
+
+.school h6, .prof h6 {
+  font-size: 1.1em;
+  margin-bottom: 10px;
 }
 
 .prof {
@@ -493,8 +528,9 @@ button.close {
 
 .prof li {
   font-family: "Podkova", serif;
-  font-size: 1.25em;
+  font-size: 1.125em;
   margin-top: 0px;
+  margin-left: -10px;
 }
 
 .footer {
