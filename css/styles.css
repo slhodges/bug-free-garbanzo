@@ -248,7 +248,7 @@ p {
   padding: 40px 0px 20px 0px;
 }
 
-.overlay:hover {
+.overlay:hover, .overlay:active, .overlay:focus {
   opacity: 1;
   transition: 10ms ease;
 }
