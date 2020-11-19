@@ -154,9 +154,6 @@ p {
     opacity: 50%;
 } */
 
-.banner {
-  
-}
 
 .intro {
   position: absolute;
@@ -432,7 +429,7 @@ p {
     background-image: url("/img/IMG_3863mo.png");
     /* background-position: right; */
     background-color: rgb(182, 180, 180);
-    max-width: 100%;
+    max-height: 650px;
   }
 
   .photo-button {
