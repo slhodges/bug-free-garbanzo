@@ -137,7 +137,7 @@ p {
   position: relative;
   /* The image used */
   background-image: url("/img/IMG_3863.png");
-  height: 650px;
+  height: 600px;
   background-blend-mode: multiply;
   background-color:rgb(224, 224, 224);
   /* Create the parallax scrolling effect */
@@ -419,9 +419,8 @@ p {
 
   .banner {
     background-image: url("/img/IMG_3863mo.png");
-    /* background-position: right; */
     background-color: rgb(182, 180, 180);
-    max-height: 400px;
+    background-attachment: fixed;
   }
 
   .photo-button {
