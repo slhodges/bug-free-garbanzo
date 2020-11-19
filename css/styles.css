@@ -590,14 +590,14 @@ button.close {
         max-height: 400px; */
   }
 
-  .more-info li {
+  /* .more-info li {
       padding: 40px 0px;
       height: auto;
   }
 
   .overlay p {
       margin: 2px 10px;
-  }
+  } */
 
   .resume {
     flex-wrap: wrap;
