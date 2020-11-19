@@ -217,7 +217,7 @@ p {
 
 .overlay {
   opacity: 0;
-  background: linear-gradient(#083e40, #083e40, rgba(0, 0, 0, 0));
+  background: #083e40;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -408,10 +408,6 @@ p {
     padding: 20px;
     /* max-width: 400px;
         max-height: 400px; */
-  }
-
-  .overlay {
-      background: #083e40;
   }
 
   .resume {
