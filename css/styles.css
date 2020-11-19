@@ -217,7 +217,7 @@ p {
 
 .overlay {
   opacity: 0;
-  background: #083e40;
+  background-color: #083e40;
   position: absolute;
   top: 0;
   bottom: 0;
