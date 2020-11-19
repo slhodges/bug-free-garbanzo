@@ -258,6 +258,125 @@ p {
   transform: rotate(220deg);
 }
 
+/* Modal Boxes */
+.trueorfalse {
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.trueorfalse h6 {
+  margin-top: 0px;
+  padding: 0px;
+  font-weight: 400;
+  font-size: .9em;
+  font-style: italic;
+  opacity: .75;
+}
+
+.tf-modal {
+    display: flex;
+    flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.modalbox {
+    background-color:  #083e40;
+    border: 0;
+    color: white;
+    font-size: 14px;
+    padding: 10px 25px;
+    width: 33%;
+    height: 180px;
+    min-width: 300px;
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.open {
+    background-color: transparent;
+    border: 0;
+    font-family: "Podkova", serif;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 115%;
+  color: #f47b6a;
+}
+
+button.open:hover {
+  transform: scale(1.0625, 1.0625);
+  transition: ease 15ms;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.247);
+}
+
+.modal-container {
+    background-color: rgba(128, 128, 128, 0.514);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.modal {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-top: 0;
+    max-width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px 35px;
+    color: #083e40;
+}
+
+.modal h5 {
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
+.modal p {
+    margin-top: 0;
+    color: #083e40;
+    padding-top: 0;
+    font-size: 1em;
+    text-align: center;
+}
+
+.modal i {
+ font-size: 1.25em;
+}
+
+button.close {
+    background-color: #f47b6a;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-family: "Podkova", serif;
+    font-size: 1.25em;
+    color: white;
+}
+
+.modal-container.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
 .about {
   padding: 0px 40px;
 }
