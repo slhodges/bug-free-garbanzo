@@ -125,7 +125,7 @@ p {
   display: inline-block;
 }
 
-/* .banner {
+.banner {
   display: block;
   margin: 0px;
   padding: 0px;
@@ -133,13 +133,8 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
+  /* width: 100%; */
   position: relative;
-} */
-
-.banner {
-    display: block;
-    position: relative;
   /* The image used */
   background-image: url("/img/IMG_3863.png");
   height: 650px;
