@@ -16,15 +16,19 @@
   </head>
   <body>
     <nav>
-      <div class="nav-bar">
-        <ul>
-          <li class="icon"><i class="fas fa-dragon"></i></li>
+      <div class="nav-bar" id="nav-bar">
+        <div class="icon"><i class="fas fa-dragon"></i></div>
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-ul" id="nav-ul">
           <li><a href="#">Home</a></li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
+      <script src="js/script.js"></script>
     </nav>
     <div class="banner">
       <div class="intro">
@@ -39,15 +43,15 @@
     </div>
 
     <div class="button-menu">
-      <div class="button">
+      <div class="photo-button">
         <img src="img/work.png" alt="" />
         <div class="button-text"><h2>resume</h2></div>
       </div>
-      <div class="button">
+      <div class="photo-button">
         <img src="img/paint.png" alt="" />
         <div class="button-text"><h2>portfolio</h2></div>
       </div>
-      <div class="button">
+      <div class="photo-button">
         <img src="img/phone.png" alt="" />
         <div class="button-text"><h2>contact</h2></div>
       </div>
@@ -55,37 +59,37 @@
       <div class="more-info">
         <h4>True or False:</h4>
         <ul>
-          <li>
+          <li class="factoid" id="factoid">
             I don't back down from a challenge. Problems are made to be solved.
-            <div class="overlay">
+            <div class="overlay" id="overlay">
               <h5>TRUE</h5>
               <div class="icon">
                 <i class="fas fa-dragon"></i>
               </div>
             </div>
           </li>
-          <li>
+          <li class="factoid" id="factoid">
             I've hiked to the base camp of the Matterhorn in Switzerland—three
             times.
-            <div class="overlay">
+            <div class="overlay" id="overlay">
               <h5>TRUE</h5>
               <div class="icon">
                 <i class="fas fa-dragon"></i>
               </div>
             </div>
           </li>
-          <li>
+          <li class="factoid" id="factoid">
             I won a gold medal in Olympic weightlifting at the Liberty Games.
-            <div class="overlay">
+            <div class="overlay" id="overlay">
               <h5>TRUE</h5>
               <div class="icon">
                 <i class="fas fa-dragon"></i>
               </div>
             </div>
           </li>
-          <li>
+          <li class="factoid" id="factoid">
             I live with a ill-intentioned ghost named Alice.
-            <div class="overlay">
+            <div class="overlay" id="overlay">
               <h5>FALSE</h5>
               <p>She's nice!</p>
               <div class="icon false">
@@ -93,18 +97,18 @@
               </div>
             </div>
           </li>
-          <li>
+          <li class="factoid" id="factoid">
             I bought my house on Craigslist.
-            <div class="overlay">
+            <div class="overlay" id="overlay">
               <h5>TRUE</h5>
               <div class="icon">
                 <i class="fas fa-dragon"></i>
               </div>
             </div>
           </li>
-          <li>
+          <li class="factoid" id="factoid">
             My design work has been featured on Mashable.
-            <div class="overlay">
+            <div class="overlay" id="overlay">
               <h5>TRUE</h5>
               <div class="icon">
                 <i class="fas fa-dragon"></i>
