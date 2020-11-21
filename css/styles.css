@@ -188,6 +188,9 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  font-family: "Podkova", serif;
+  font-weight: 600;
+  font-size: 2em;
 }
 
 /* .more-info {
