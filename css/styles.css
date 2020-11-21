@@ -73,7 +73,7 @@ h6 {
     color: white;
     font-size: 1.25em;
     padding: 0px;
-    margin: 20px 10px;
+    margin: 20px 0px;
 }
 
 p {
@@ -542,21 +542,33 @@ button.close {
   font-size: 1.7em;
 }
 
+.portintro .rule {
+  margin-bottom: 40px;
+}
+
 /* Portfolio Modal Boxes */
 
-.port-box {
-  background-color: #083e40;
-  border: 0;
-  color: white;
-  font-size: 14px;
-  padding: 10px 25px;
-  width: 33%;
-  height: 180px;
-  min-width: 300px;
-  /* position: fixed; */
+.porfolio-projects {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.port-modalbox {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-size: 14px;
+  padding: 0px 25px;
+  margin: 5px 20px;
+  min-width: 100%;
+  height: 100%;
+  /* position: fixed; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 
 button.port-open {
@@ -582,6 +594,7 @@ text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.247);
 background-color: rgba(255, 255, 255, 0.123);
 margin: 0;
 border-radius: 15px;
+min-width: 100%;
 }
 
 .port-modal-container {
@@ -610,7 +623,7 @@ border-radius: 15px;
   max-height: 100%;
   border-radius: 15px;
   max-width: 90vw;
-  padding-bottom: 30px;
+  padding: 0px 50px 30px 50px;
 }
 
 .pmi-p h6 {
@@ -630,6 +643,10 @@ border-radius: 15px;
   max-height: 400px;
   margin: 20px;
   max-width: 85%;
+}
+
+#noodle img {
+  max-height: 1200px;
 }
 
 .port-modal-inner p {
@@ -658,21 +675,26 @@ button.port-close {
   pointer-events: auto;
 }
 
-.project {
+.project h6 {
+  margin-top: 10;
+}
+
+/* .project {
   display: flex;
   flex-direction: row;
   margin: 30px;
-}
+} */
 
 .port-open img {
-  width: 300px;
-  height: 300px;
+  max-width: 400px;
+  height: 400px;
+  object-fit: contain;
   padding: 30px 25px;
   display: block;
 }
 
 .blurb {
-  padding: 30px 30px 30px 30px;
+  padding: 30px;
   text-align: left;
 }
 
@@ -680,6 +702,18 @@ button.port-close {
   font-size: .75em;
   /* margin-left: 10px; */
 }
+
+.behance h6 {
+  font-size: 1.65em;
+  color: #f47b6a;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-family: "Podkova", serif;
+}
+
+.behance a:hover {
+  color: white;
+} 
 
 .footer {
   display: block;
@@ -761,19 +795,25 @@ button.port-close {
     line-height: 1.25em;
   }
 
-  .port-box {
+  .port-modalbox {
     height: auto;
+    padding: 0px 20px;
+    margin: 0px 10px;
   }
 
   button.port-open {
     flex-direction: column;
+    flex-wrap: wrap;
     max-width: 100%;
+    height: 100%;
+    align-items: center;
   }
 
   .port-open img {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    max-width: 300px;
     padding-bottom: 0;
   }
 
