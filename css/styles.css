@@ -579,7 +579,7 @@ button.port-open:hover {
 /* transform: scale(1.0625, 1.0625); */
 transition: ease 15ms;
 text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.247);
-background-color: rgba(255, 255, 255, 0.233);
+background-color: rgba(255, 255, 255, 0.123);
 margin: 0;
 border-radius: 15px;
 }
