@@ -5,6 +5,8 @@ hamburger.addEventListener('click', () => {
     navUL.classList.toggle('show');
 });
 
+// Home Page Modal
+
 const open1 = document.getElementById('open1');
 const modal_container1 = document.getElementById('modal_container1');
 const close1 = document.getElementById('close1');
@@ -76,3 +78,4 @@ open6.addEventListener('click', () => {
 close6.addEventListener('click', () => {
     modal_container6.classList.remove('show');
 });
+

@@ -533,6 +533,154 @@ button.close {
   margin-left: -10px;
 }
 
+.portintro {
+  padding: 10px 30px 0px 30px;
+}
+
+.portintro h3 {
+  line-height: 1.0625em;
+  font-size: 1.7em;
+}
+
+/* Portfolio Modal Boxes */
+
+.port-box {
+  background-color: #083e40;
+  border: 0;
+  color: white;
+  font-size: 14px;
+  padding: 10px 25px;
+  width: 33%;
+  height: 180px;
+  min-width: 300px;
+  /* position: fixed; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.port-open {
+  background-color: transparent;
+  border: 0;
+  font-family: "Podkova", serif;
+font-size: 1.5em;
+text-align: center;
+line-height: 115%;
+color: #f47b6a;
+display: flex;
+flex-direction: row;
+}
+
+button.port-open:focus {
+border: 0;
+}
+
+button.port-open:hover {
+/* transform: scale(1.0625, 1.0625); */
+transition: ease 15ms;
+text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.247);
+background-color: rgba(255, 255, 255, 0.233);
+margin: 0;
+border-radius: 15px;
+}
+
+.port-modal-container {
+  background-color:  rgba(255, 255, 255, 0.333);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  padding: 5%;
+}
+
+.port-modal-inner {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  overflow-y: scroll;
+  max-height: 100%;
+  border-radius: 15px;
+  max-width: 90vw;
+  padding-bottom: 30px;
+}
+
+.pmi-p h6 {
+  color: #f47b6a;
+  padding-top: 30px;
+  font-family: "Podkova", serif;
+  font-size: 1.5em;
+}
+
+.pmi-p {
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.port-modal-inner img {
+  /* width: 400px; */
+  max-height: 400px;
+  margin: 20px;
+  max-width: 100%;
+}
+
+.port-modal-inner p {
+  font-size: 1.125em;
+  margin: 50px;
+  color: #083e40;
+}
+
+button.port-close {
+  background-color: #f47b6a;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-family: "Podkova", serif;
+  font-size: 1.25em;
+  color: white;
+  /* margin: 30px; */
+}
+
+.pmi-b {
+  padding-bottom: 50px;
+}
+
+.port-modal-container.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+
+.port-open img {
+  width: 300px;
+  height: 300px;
+  padding: 30px 25px;
+  display: block;
+}
+
+.blurb {
+  padding: 30px 30px 30px 0px;
+  text-align: left;
+}
+
+.blurb p {
+  font-size: .75em;
+  margin-left: 10px;
+}
+
 .footer {
   display: block;
   text-align: center;
