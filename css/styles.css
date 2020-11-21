@@ -159,7 +159,7 @@ p {
   width: 100%;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 20px 10px 10px 10px;
 }
 
@@ -167,7 +167,7 @@ p {
   width: 33%;
   padding: 10px;
   position: relative;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .photo-button img {
