@@ -565,7 +565,7 @@ button.port-open {
   font-family: "Podkova", serif;
 font-size: 1.5em;
 text-align: center;
-line-height: 115%;
+/* line-height: 135%; */
 color: #f47b6a;
 display: flex;
 flex-direction: row;
@@ -629,7 +629,7 @@ border-radius: 15px;
   /* width: 400px; */
   max-height: 400px;
   margin: 20px;
-  max-width: 100%;
+  max-width: 85%;
 }
 
 .port-modal-inner p {
@@ -754,5 +754,37 @@ button.port-close {
   .experience,
   .education {
     width: 100%;
+  }
+
+  .port-box {
+    height: auto;
+  }
+
+  button.port-open {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .port-open img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0;
+  }
+
+  .blurb {
+    text-align: center;
+  }
+
+  .pmi-i {
+    width: 100%;
+    height: auto;
+  }
+
+  .pmi-p h6 {
+    font-size: 1.25em;
+  }
+  
+  .pmi-p {
+    font-size: .9em;
   }
 }
