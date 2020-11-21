@@ -822,6 +822,8 @@ button.port-close {
 
   .blurb {
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .pmi-i {
@@ -844,5 +846,9 @@ button.port-close {
 
   button.port-close {
     margin: 20px 0px 0px 0px;
+  }
+
+  .behance {
+    text-align: center;
   }
 }
