@@ -35,27 +35,36 @@
           <div id="fcf-form">
           <h3 class="fcf-h3">Drop me a message.</h3><p>If you have questions or want to collaborate on a project, fill out the form below and let's chat! </p>
       
-          <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+          <form
+  action="https://formspree.io/f/xoqplgpr"
+  method="POST"
+>
               
               <div class="fcf-form-group">
-                  <label for="Name" class="fcf-label">Your name</label>
-                  <div class="fcf-input-group">
-                      <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-                  </div>
+                <div class="label">
+                  Your name:
+                </div>
+                <div class="field">
+                  <input type="text" name="_replyto">
+                </div>
               </div>
       
               <div class="fcf-form-group">
-                  <label for="Email" class="fcf-label">Your email address</label>
-                  <div class="fcf-input-group">
-                      <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-                  </div>
+                <div class="label">
+                  Your email:
+                </div>
+                <div class="field">
+                  <input type="text" name="_replyto">
+                </div>
               </div>
       
               <div class="fcf-form-group">
-                  <label for="Message" class="fcf-label">What's up?</label>
-                  <div class="fcf-input-group">
-                      <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-                  </div>
+                <div class="label">
+                  Your message:
+                </div>
+                <div class="field">
+                  <textarea name="message"></textarea>
+                </div>
               </div>
       
               <div class="fcf-form-group">
