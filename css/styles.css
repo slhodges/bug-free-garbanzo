@@ -670,6 +670,7 @@ button.port-close {
 }
 
 .pmi-b {
+  padding-top: 20px;
   padding-bottom: 50px;
 }
 
@@ -678,9 +679,9 @@ button.port-close {
   pointer-events: auto;
 }
 
-.project h6 {
+/* .project h6 {
   margin-top: 10;
-}
+} */
 
 /* .project {
   display: flex;
@@ -823,7 +824,7 @@ button.port-close {
 
   .blurb {
     text-align: center;
-    padding: 10px 0px 30px 0px;
+    padding: 5px 0px 10px 0px;
   }
 
   .pmi-i {
