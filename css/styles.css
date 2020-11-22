@@ -546,7 +546,7 @@ button.close {
 }
 
 .portintro .rule {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 /* Portfolio Modal Boxes */
@@ -796,6 +796,7 @@ button.port-close {
   .portintro h3 {
     font-size: 1.35em;
     line-height: 1.25em;
+    padding-bottom: 30px;
   }
 
   .port-modalbox {
@@ -822,8 +823,7 @@ button.port-close {
 
   .blurb {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0px 30px 0px;
   }
 
   .pmi-i {
@@ -848,7 +848,7 @@ button.port-close {
     margin: 20px 0px 0px 0px;
   }
 
-  .behance {
+  .behance h6 {
     text-align: center;
   }
 }
